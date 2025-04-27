@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cristhiano Castañeda">
+    <meta name="robots" content="nofollow, noarchive">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cristhiano Castañeda</title>
+    <link rel="icon" href="imagenes/logo.png" type="image/png">
+</head>
+<body>
+    <div class="fondo-superior"></div>
+    <header class="container-fluid header " id="header">
+      <div class="row p-4 m-0 header-div">
+            <a class="col1 col-4 col-md-3  logo" href="#portada">
+                <span>CASTAÑEDA</span>
+            </a>
+            
+            <button class="botom-abrir col-2" id="menu"> <img src="imagenes/menu.png" alt=""></button>
+            <nav class="col2 col-md-8  m-0" id="nav" >
+                <ul class="enl-desplazo" id="enl-desplazo">
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+
+                </ul>
+            </nav>
+            
+            <div class="col3 col-6 col-md-1 m-0 p-0 ">
+                <a href="https://github.com/Crishiano" target="_blank">
+                    <img src="imagenes/logotipo-de-github.png" alt="logo github">
+                </a>
+                <a  href="https://www.linkedin.com/in/cristhiano-casta%C3%B1eda-9762b1346/" target="_blank">
+                    <img src="imagenes/logotipo-de-linkedin.png" alt="logo linkedin">
+                </a>
+            </div>
+            
+        </div> 
+    </header>
+    <div class="contenido " id="portada">
+        <main class="container p-0">
+            <div class="row portada">
+                <div class="col-md-6 titulos">
+                    <h1>
+                        Cristhiano Castañeda
+                    </h1>
+                    <h2>
+                        PROGRAMADOR
+                    </h2>
+                </div>
+                <div class="col-md-6 imagen-portada">
+                    <img src="imagenes/gato programador (1) (1).png" alt="">
+                </div>
+            </div>
+            <section id="sobre-mi" class="row mx-5 mt-5 justify-content-center">
+                <h2 class="col-md-3 ">Sobre mí</h2>
+                <p class="col-md-12"> 
+                    Soy un desarrollador Frontend Junior. Hago páginas web interactivas y funcionales, utilizando HTML, CSS, JavaScript, PHP y SQL. 
+                    Trabajo con frameworks y librerías como React, Laravel, Bootstrap, Tailwind CSS y Sass. También uso Git, GitHub, Bitbucket, PhpMyAdmin, Vite y Laragon . 
+                    Manejo metodologías de gestión de proyectos como Scrum y Jira, y en diseño web con Figma y WordPress. Estoy comprometido con el aprendizaje continuo para ofrecer siempre buenos resultados en cada proyecto.
+                </p>
+                <h2 class="col-md-3">Herramientas</h2>
+                <div class="col-md-12 mt-2 div-herramientas">
+                    <ul class="herramientas">
+                        <li>
+                            <img src="imagenes/java_logo.png" alt="java">
+                        </li>
+                        <li>
+                            <img src="imagenes/css_logo.png" alt="css">
+                        </li>
+                        <li>
+                            <img src="imagenes/html_logo.png" alt="html">
+                        </li>
+                        <li>
+                            <img src="imagenes/sql_logo.png" alt="">
+                        </li>
+                        <li>
+                            <img src="imagenes/PHP-logo.svg.png" alt="">
+                        </li>
+                        <li>
+                            <img src="imagenes/Visual_Studio_Code_logo.png" alt="">
+                        </li>
+                    </ul>
+                    
+                </div>
+            </section>
+            <section id="proyectos" class="row mx-5 mt-5">
+                <h2>Proyectos</h2>
+                <div class="proyecto1 col-md-8 col-12">
+                    <a href="https://test-chatby.netlify.app" target="_blank">
+                        <img src="imagenes/chatby-web.png.png" alt="chatby proyecto web">
+                    </a>
+                </div>
+                <p>
+                    Colaboré en el desarrollo de la página web 'CHATBY' junto con otros dos desarrolladores. Trabajé con mis propias ramas en Git y la web fue desarrollada con React, HTML, CSS, JavaScript, Vite, Material UI, Bootstrap, Tailwind y Quasar. 
+                    Mi aporte incluyó la implementación del formulario de login y registro, el diseño y las validaciones de los inputs, así como el diseño de otras secciones.
+                </p>
+            </section>
+        </main>
+        <aside></aside>
+    </div>
+    <footer class=" container-fluid m-0 mt-5 p-0" id="contacto">
+        <div class="card col-md-4">
+            <span class="titulo">Contáctame</span>
+            <form class="form">
+                <div class="grupo">
+                    <input placeholder="" id="name" name="name" type="text" required="">
+                    <label for="name">Nombre</label>
+                </div>
+                <div class="grupo">
+                    <input placeholder="" type="email" id="email" name="email" required="">
+                    <label for="email">Email</label>
+                </div>
+                <div class="grupo">
+                    <textarea placeholder="" id="comment" name="comment" rows="5" required=""></textarea>
+                    <label for="comment">Mensaje</label>
+                </div>
+                <button class="botom-formulario" type="submit">Enviar</button>
+            </form>
+        </div>
+        <p class="contacto col-md-4">Contacto: ccastanedap@unprg.edu.pe</p>
+        <p class=" copy col-md-6">&copy; 2025 Cristhiano Castañeda Paredes</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
