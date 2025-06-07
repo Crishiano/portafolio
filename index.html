@@ -105,7 +105,8 @@
     <footer class=" container-fluid m-0 mt-5 p-0" id="contacto">
         <div class="card col-md-4">
             <span class="titulo">Contáctame</span>
-            <form class="form">
+            <form class ="form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="ad3d56a6-0f13-4db7-a6d2-5a85df86bdb7">
                 <div class="grupo">
                     <input placeholder="" id="name" name="name" type="text" required="">
                     <label for="name">Nombre</label>
@@ -119,7 +120,7 @@
                     <label for="comment">Mensaje</label>
                 </div>
                 <button class="botom-formulario" type="submit">Enviar</button>
-                
+                <input type="hidden" name="redirect" value="https://crishiano.github.io/portafolio/">
             </form>
         </div>
         <p class="contacto col-md-4">Contacto: ccastanedap@unprg.edu.pe</p>
