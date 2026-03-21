@@ -461,7 +461,8 @@ button {
 }
 
 /* Imagen del carrusel */
-.carrusel img {
+.carrusel #imagen,
+.carrusel .img_proyecto2 {
   width: 90%; 
   max-width: 600px; 
   height: auto;
@@ -470,7 +471,7 @@ button {
   margin: 0 auto; 
   transition: all 0.3s ease;
 }
-.carrusel:hover img {
+.carrusel:hover .img_proyecto2 {
   transform: scale(1.01);
   
 }
