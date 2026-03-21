@@ -488,7 +488,7 @@ button {
   cursor: pointer;
   font-size: 22px;
   border-radius: 50%;
- 
+  index: 1;
 }
 
 
