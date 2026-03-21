@@ -5,19 +5,20 @@
   .col2{
     display: none;
   }*/
-    const col2 = document.querySelector("#nav");
+   const col2 = document.querySelector("#nav");
     const menu = document.querySelector("#menu");
     const header = document.querySelector("#header");
     menu.addEventListener("click", () => {
       col2.classList.toggle("visible");
       header.classList.toggle("visible");
     })
-   
+
+
   const imagenes = [
   "imagenes/proyecto_clinica.png",
   "imagenes/proyecto_clinica2.png",
   "imagenes/proyecto_clinica3.png"
-    ];
+];
 
 let indice = 0;
 
