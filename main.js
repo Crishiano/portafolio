@@ -5,6 +5,7 @@
   .col2{
     display: none;
   }*/
+
    const col2 = document.querySelector("#nav");
     const menu = document.querySelector("#menu");
     const header = document.querySelector("#header");
