@@ -11,7 +11,7 @@
     menu.addEventListener("click", () => {
       col2.classList.toggle("visible");
       header.classList.toggle("visible");
-    })
+    });
 
 
   const imagenes = [
